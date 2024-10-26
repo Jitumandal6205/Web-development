@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TRANSFORM</title>
+    <style>
+        .box{
+            
+            margin: 30px;
+          height: 50px;
+          width: 50px;
+          border: 3px solid black;
+          border-radius: 10px;
+          background-color: plum;  
+          position: relative;
+          top: 50px;
+          left: 100px;
+          transition: all ease-in 0.2s;
+        }
+        .box:hover{
+            transform: rotatex(33deg) ;
+
+        }
+        .box1{
+            
+            margin: 30px;
+          height: 50px;
+          width: 50px;
+          border: 3px solid black;
+          border-radius: 10px;
+          background-color: plum;  
+          position: relative;
+          top: 50px;
+          left: 100px;
+          transition: all ease-in 0.2s;
+        }
+        .box1:hover{
+            transform: translate(50px, 30px) ;
+
+        }
+        .box2{
+            
+            margin: 30px;
+          height: 50px;
+          width: 50px;
+          border: 3px solid black;
+          border-radius: 10px;
+          background-color: plum;  
+          position: relative;
+          top: 50px;
+          left: 100px;
+          transition: all ease-in 0.2s;
+        }
+        .box2:hover{
+            transform: scale(1.5);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Rotate</div>
+    <div class="box1">scale</div>
+    <div class="box2">translate</div>
+</body>
+</html>

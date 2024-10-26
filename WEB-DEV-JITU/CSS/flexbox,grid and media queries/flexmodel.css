@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+   text-align: center;
+}
+#container{
+        height: 300px;
+        width: 400px;
+        border: 5px solid gold;
+        margin: 30px;
+        background-color: lightcoral;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 2;
+        align-items:fl  end;
+        
+}
+.box{
+    height: 100px; 
+    width: 100px;
+    border: 3px solid black;
+}
+#box1{
+    margin: 10px;
+    background-color: darkkhaki;
+    
+}
+#box2{
+    margin: 10px;
+    background-color: aqua;
+    
+}
+#box3{
+    order: 2;
+    margin: 10px;
+    background-color: darkorange;
+}
+#box4{
+    margin: 10px;
+    background-color: darkred;
+    
+}
+
+
+
+
